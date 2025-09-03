@@ -1,6 +1,6 @@
 import jsPDF from "jspdf";
-import "../assets/Font/Roboto_Condensed-Bold-normal.js";
-import "../assets/Font/Roboto-Regular-normal.js";
+import "../assets/font/Roboto_Condensed-Bold-normal.js";
+import "../assets/font/Roboto-Regular-normal.js";
 import calculateTotal from "./calculations.js";
 
 export const exportToPdf = (formData) => {
